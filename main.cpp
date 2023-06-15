@@ -102,7 +102,8 @@ unsigned getLinesCount(const char* fileName)
     return getCharCountFromFile(myFile, '\n');
 }
 
-//functions for class SocialNetwork
+//functions for class SocialNetwork - they have to be in other .cpp file,
+//but I had a problem when they where in other file, and that's why I just left them here
 void SocialNetwork:: free()
 {
     delete[] themes;
